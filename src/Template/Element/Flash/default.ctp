@@ -1,0 +1,1 @@
+<div class="alert alert-info"><?= preg_replace('/\n/', "<br>\n", h($message)) ?></div>

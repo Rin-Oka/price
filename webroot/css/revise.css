@@ -1,0 +1,84 @@
+.list-group-item {
+    overflow:hidden;
+    position: relative;
+    display: block;
+    padding: 3px 5px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+div.offers-container {
+    margin: 1px;
+    padding: 1px;
+    border: 1px solid #ddd;
+}
+
+div.offer {
+    border: 1px solid #ddd;
+    border-radius: 20%;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .offer {
+        width: 5%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .offer {
+        width: 5%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .offer {
+        width: 5%;
+        float: left;
+    }
+}
+
+div.price-rank {
+    padding: 2px;
+    font-size: 10px;
+    color: white;
+    background-color: #99b3b5;
+    border-radius: 25%;
+}
+
+.priced {
+    background-color: #f6ff4d;
+}
+
+.sku-priced {
+    background-color: #4cf426;
+}
+
+.priced.sku-priced {
+    background-color: #b5ff1a;
+}
+
+.disabled {
+    color: #c1c1c1;
+}
+
+.acceptable {
+    color: #c1c1c1;
+}
+
+.minus-profit {
+    color: #d60007;
+}
+
+.profit-for-min-price {
+    text-decoration: underline;
+}
+
+.marked {
+    background-color: #f6ff4d;
+}
+
+.excluded {
+    background-color: #dd8818;
+}

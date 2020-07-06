@@ -1,0 +1,29 @@
+* { font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif; }
+
+
+div#container { padding:0 10px; }
+
+.btn-icon { margin-right:5px; }
+
+/* override bootrstrap */
+div.page-header { margin:0 0 15px 0; padding:0 0 5px 0; height:30px; }
+table.table td, table.table th { font-size:smaller; }
+h1 { font-size:24px; margin:10px 0; }
+h4 { font-size:16px; }
+
+/* extend bootstrap */
+.table > thead > tr > td.inactive,
+.table > tbody > tr > td.inactive,
+.table > tfoot > tr > td.inactive,
+.table > thead > tr > th.inactive,
+.table > tbody > tr > th.inactive,
+.table > tfoot > tr > th.inactive,
+.table > thead > tr.inactive > td,
+.table > tbody > tr.inactive > td,
+.table > tfoot > tr.inactive > td,
+.table > thead > tr.inactive > th,
+.table > tbody > tr.inactive > th,
+.table > tfoot > tr.inactive > th {
+    background-color:#c0c0c0;
+    color:#888888;
+}

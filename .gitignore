@@ -1,0 +1,9 @@
+/vendor/*
+!/vendor/empty
+/tmp/*
+/logs/*
+*.lock
+.idea/workspace.xml
+/tsv/*
+!/tsv/.gitkeep
+/.idea/*

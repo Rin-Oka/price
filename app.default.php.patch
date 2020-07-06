@@ -1,0 +1,52 @@
+*** config/app.default.php.default	2015-05-16 18:42:50.000000000 +0900
+--- config/app.default.php	2015-05-16 18:44:25.000000000 +0900
+***************
+*** 219,229 ****
+               * the following line and set the port accordingly
+               */
+              //'port' => 'nonstandard_port_number',
+!             'username' => 'my_app',
+!             'password' => 'secret',
+!             'database' => 'my_app',
+!             'encoding' => 'utf8',
+!             'timezone' => 'UTC',
+              'cacheMetadata' => true,
+  
+              /**
+--- 219,229 ----
+               * the following line and set the port accordingly
+               */
+              //'port' => 'nonstandard_port_number',
+!             'username' => 'kaitei',
+!             'password' => '5cqjpNZynnY9aXzQ',
+!             'database' => 'kaitei',
+!             'encoding' => 'utf8mb4',
+!             'timezone' => '+9:00',
+              'cacheMetadata' => true,
+  
+              /**
+***************
+*** 255,265 ****
+              'persistent' => false,
+              'host' => 'localhost',
+              //'port' => 'nonstandard_port_number',
+!             'username' => 'my_app',
+!             'password' => 'secret',
+!             'database' => 'test_myapp',
+!             'encoding' => 'utf8',
+!             'timezone' => 'UTC',
+              'cacheMetadata' => true,
+              'quoteIdentifiers' => false,
+              //'init' => ['SET GLOBAL innodb_stats_on_metadata = 0'],
+--- 255,265 ----
+              'persistent' => false,
+              'host' => 'localhost',
+              //'port' => 'nonstandard_port_number',
+!             'username' => 'kaitei',
+!             'password' => '5cqjpNZynnY9aXzQ',
+!             'database' => 'kaitei_test',
+!             'encoding' => 'utf8mb4',
+!             'timezone' => '+9:00',
+              'cacheMetadata' => true,
+              'quoteIdentifiers' => false,
+              //'init' => ['SET GLOBAL innodb_stats_on_metadata = 0'],
